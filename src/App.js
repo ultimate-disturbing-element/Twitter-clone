@@ -1,9 +1,17 @@
 import React from 'react'
-
+import { Sidebar,Feed,Widgets} from './Components/index'
+import './App.css'
 const App = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
+    <div className='app'>
+      {/* SideBar */}
+      <Sidebar/>
+
+      {/* Feed */}
+      <Feed/>
+
+      {/* Widgets */}
+      <Widgets/>
     </div>
   )
 }
