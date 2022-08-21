@@ -18,12 +18,12 @@ const Widgets = () => {
       <TwitterTweetEmbed tweetId={'TWITTER_ID'} />
       <TwitterTimelineEmbed
       sourceType='profile'
-      screenName='LyghtJr'
+      screenName=''
       options={{height: 400}}
       />
       <TwitterShareButton
-      url={"https://github.com/Lyghtjr"}
-      options={{text: "Twitter Share Button", via: "LyghtJr"}}
+      url={""}
+      options={{text: "Twitter Share Button", via: ""}}
       />
       </div>
     </div>
